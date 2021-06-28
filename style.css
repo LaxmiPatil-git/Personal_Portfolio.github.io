@@ -35,6 +35,12 @@ main {
   background: lightgray;
   padding-top: 45vh;
 }
+#welcome-section h1 {
+  font-size: 2em;
+}
+#welcome-section p {
+  font-size: 2em;
+}
 
 #projects {
   text-align: center;
@@ -48,14 +54,9 @@ main {
   background: lightgray;
   justify-items: center;
 }
-/* .containerCircle div {
-  border: 2px solid red;
-  display: grid;
-  grid-row-gap: 50px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  margin: 20px;
-} */
-
+#profile > p {
+  font-size: 1.5em;
+}
 .container {
   /* border: 2px solid red; */
   display: grid;
@@ -111,7 +112,7 @@ main {
   text-decoration: none;
   color: black;
   font-weight: bold;
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 @media all and (max-width: 800px) {
